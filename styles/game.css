@@ -204,10 +204,9 @@ h1 span {
     align-items: center;
 }
 
-/* .download-images {
-    flex-direction: row;
-    display: flex;
-} */
+.download-images {
+    margin-top: -100px;
+}
 
 .download-image1 {
     height: 300px;
@@ -225,7 +224,7 @@ h1 span {
 
 
 @media screen and (max-width: 576px) {
-    nav, .menu, .banner, .online-videos {
+    nav, .menu, .banner, .online-videos, .download {
         flex-direction: column;
         align-items: center;
         height: 300px;
@@ -240,6 +239,10 @@ h1 span {
     }
     .banner {
         height: 700px;
+    }
+
+    .online-videos {
+        margin-bottom: 150px;
     }
 
     .online-image {
@@ -266,6 +269,44 @@ h1 span {
     .online-container p {
         font-size: 16px;
     }
+
+    .download {
+        margin: 900px 10px 0 0;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+    .download-content h1 {
+        width: 200px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .download-content p {
+        width: 280px;
+        text-align: center;
+        align-items: center;
+        margin-right: 200px;
+    }
+
+    .download-image1 {
+        height: 300px;
+        width: 300px;
+        margin-left: 60px;
+        
+    }
+    
+    .download-image2 {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 370px;
+        left: -100px;
+    }
+
 
 }
 
