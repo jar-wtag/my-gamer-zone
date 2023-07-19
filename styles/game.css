@@ -240,6 +240,67 @@ h1 span {
     
 }
 
+footer {
+    margin-top: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+    text-align: center;
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+}
+
+.footer-header {
+    align-items: center;
+    display: flex;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.footer-menu li {
+    list-style: none;   
+    margin-right: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+}
+
+.footer-menu p {
+    list-style: none;   
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.footer-content {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 
 @media screen and (max-width: 576px) {
     nav, .menu, .banner, .online-videos, .download {
@@ -316,7 +377,6 @@ h1 span {
         height: 300px;
         width: 300px;
         margin-left: 60px;
-        
     }
     
     .download-image2 {
@@ -335,7 +395,6 @@ h1 span {
         gap: 00px;
         width: 100%; 
         align-items: center;
-        
     }
 
     .action img {
