@@ -4,6 +4,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     
 }
 
@@ -34,13 +37,15 @@ nav > ul {
 nav li {
     list-style: none;
     margin-right: 50px;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    
 }
 
 nav a {
     text-decoration: none;
     float: right;
-}
-
-.menu {
-    overflow: auto;
 }
