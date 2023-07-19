@@ -231,6 +231,7 @@ h1 span {
     width: 100%; 
     align-items: center;
     justify-items: center;
+    margin-bottom: 50px;
     
 }
 
@@ -241,22 +242,39 @@ h1 span {
 }
 
 footer {
-    margin-top: 100px;
-    justify-content: space-evenly;
-    text-align: center;
-    text-align: center;
     width: 1920px;
-    height: 636px;
+    height: 336px;
     background: #0B0223;
+    margin-right: 300px;
+}
+
+.footer-info {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    text-align: center;
 }
 
 .footer-header {
     align-items: center;
     display: flex;
+    justify-content: center;
+}
+
+.logo-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .footer-menu {
     display: flex;
+    justify-content: center;
 }
 
 .footer-menu a {
@@ -283,6 +301,7 @@ footer {
     list-style: none;   
     margin-right: 20px;
     text-align: center;
+    font-size: 16px;
     
 }
 
