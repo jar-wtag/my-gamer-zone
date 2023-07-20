@@ -214,6 +214,11 @@ h1 span {
     font-weight: 700;
 }
 
+.download-content span {
+    color: #FF42A5;
+}
+
+
 .download-content p {
     width: 350px;
     color: #534C64;
@@ -384,7 +389,6 @@ footer {
 .social-media > p i {
     font-size: 2rem;
     color: white;
-    
     border-radius: 50%;
     border: none;
 }
@@ -486,14 +490,16 @@ footer {
     }
 
     .action-container {
-        margin: 450px 10px 50px 0;
-        margin-right: 10px;
+        margin: 450px 0px 50px 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr
         );
-        gap: 0px;
-        width: 100%; 
+        gap: 5px;
         align-items: center;
+    }
+
+    .action {
+        margin-bottom: 30px;
     }
 
     .action img {
@@ -505,16 +511,25 @@ footer {
         font-size: 11px;
     }
 
+    footer {
+        height: 600px;
+        padding-bottom: 50px;
+    }
+
     .footer-header {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        
+
     }
 
     .footer-logo-title {
         margin-left: 0px;
+    }
+
+    .footer-logo-title span {
+        font-size: 50px;
     }
 
     .footer-menu {
@@ -522,19 +537,36 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
         width: 400px;
-        /* margin-left: -300px; */
     }
 
     .footer-menu li {
         margin-left: -200px;
-        padding: 0px;
-        gap: 30px;
+        padding: 10px;
     }
 
     .footer-menu > li a {
-        font-size: 10px;
-        padding-bottom: 10px
-        ;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .social-media{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        width: 300px;
+        padding-bottom: -10px;
+    }
+
+    .policy-link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        width: 420px;
+        padding-bottom: -10px;
+    }
+
+    .footer-description {
+        margin: 0 52px;
     }
 
 }
